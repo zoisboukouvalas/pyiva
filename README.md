@@ -1,7 +1,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.python.org/pypi/pyiva)
 
 # PyIVA
-*pyiva* is an implementation of the independent vector analysis (IVA) algorithm using a multivariate Laplace prior. It uses the same score function as found in the original IVA paper. IVA is a data fusion technique which is an extension of independent component analysis (ICA) to multiple statistically-dependent datasets.
+*pyiva* is an implementation of the independent vector analysis (IVA) algorithm using a multivariate Laplace prior. It uses the same score function as found in the original IVA paper. IVA is an extension of independent component analysis (ICA) to multiple statistically-dependent datasets, and can be used for dimensionality reduction and data fusion.
 
 Primary author: Austin Kim (austinkim1004 at gmail.edu)
 Code maintainer: Zois Boukouvalas (zoisb at umd.edu)
