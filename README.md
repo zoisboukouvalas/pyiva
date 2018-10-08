@@ -1,8 +1,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.python.org/pypi/pyiva)
-[![PyPI](https://img.shields.io/pypi/dm/pyiva.svg?style=flat-square)](https://pypi.python.org/pypi/pyiva)
 
 # PyIVA
-*pyiva* is an implementation of the independent vector analysis (IVA) algorithm using a multivariate Laplace prior. It uses the same score function as found in the original IVA paper.
+*pyiva* is an implementation of the independent vector analysis (IVA) algorithm using a multivariate Laplace prior. It uses the same score function as found in the original IVA paper. IVA is a data fusion technique which is an extension of independent component analysis (ICA) to multiple statistically-dependent datasets.
 
 Primary author: Austin Kim (austinkim1004 at gmail.edu)
 Code maintainer: Zois Boukouvalas (zoisb at umd.edu)
@@ -47,5 +46,7 @@ mixing matrices for computing a performance metric
 
 ## References
 [1] T. Kim, I. Lee, & T.-W. Lee, "Independent Vector Analysis: Definition and Algorithms," *Proc. of 40th Asilomar Conference on Signals, Systems, and Computers*, 2006, 1393-1396
-[2] T. Kim, T. Eltoft, & T.-W. Lee, "Independent Vector Analysis: an extension of ICA to multivariate components," *Lecture Notes in Computer Science: Independent Component Analysis and Blind Signal Separation, Independent Component Analysis and Blind Signal Separation*, Springer Berlin / Heidelberg, 2006, 3889, 165-172
+
+[2] T. Kim, T. Eltoft, & T.-W. Lee, "Independent Vector Analysis: an extension of ICA to multivariate components," *Lecture Notes in Computer Science: Independent Component Analysis and Blind Signal Separation, Independent Component Analysis and Blind Signal Separation*, Springer Berlin / Heidelberg, 2006, **3889**, 165-172
+
 [3] T. Kim, H. T. Attias, S.-Y. Lee, & T.-W. Lee, "Blind Source Separation Exploiting Higher-Order Frequency Dependencies," *IEEE Trans. Audio Speech Lang. Process.*, 2007, **15**, 70-79
