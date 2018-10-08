@@ -1,8 +1,0 @@
-README.md
-setup.py
-pyiva/__init__.py
-pyiva/iva_laplace.py
-pyiva.egg-info/PKG-INFO
-pyiva.egg-info/SOURCES.txt
-pyiva.egg-info/dependency_links.txt
-pyiva.egg-info/top_level.txt
