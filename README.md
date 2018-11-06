@@ -46,6 +46,7 @@ mixing matrices for computing a performance metric
 
 ## Citation
 If you use pyIVA, please cite
+
 @misc{PyIVA,
 author = {Zois Boukouvalas and Austin Kim and Daniel C. Elton},
 title = { {PyIVA}},
