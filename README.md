@@ -47,14 +47,14 @@ mixing matrices for computing a performance metric
 ## Citation
 If you use pyIVA, please cite
 
-@misc{PyIVA,
-author = {Zois Boukouvalas and Austin Kim and Daniel C. Elton},
-title = { {PyIVA}},
-howpublished = {\url{https://github.com/zoisboukouvalas/pyiva}}
+@misc{PyIVA,  
+author = {Zois Boukouvalas and Austin Kim and Daniel C. Elton},  
+title = { {PyIVA}},  
+howpublished = {\url{https://github.com/zoisboukouvalas/pyiva}}  
 }
 
-@ARTICLE{2018arXiv181100628B,
-   author = {{Boukouvalas}, Z. and {Elton}, D.~C. and {Chung}, P.~W. and 
+@ARTICLE{2018arXiv181100628B,  
+   author = {{Boukouvalas}, Z. and {Elton}, D.~C. and {Chung}, P.~W. and   
 	{Fuge}, M.~D.},
     title = "{Independent Vector Analysis for Data Fusion Prior to Molecular Property Prediction with Machine Learning}",
   journal = {ArXiv e-prints},
