@@ -49,23 +49,23 @@ If you use pyIVA, please cite
 
 @misc{PyIVA,  
 author = {Zois Boukouvalas and Austin Kim and Daniel C. Elton},  
-title = { {PyIVA}},  
+title = {{PyIVA}},  
 howpublished = {\url{https://github.com/zoisboukouvalas/pyiva}}  
 }
 
-@ARTICLE{2018arXiv181100628B,  
-   author = {{Boukouvalas}, Z. and {Elton}, D.~C. and {Chung}, P.~W. and   
-	{Fuge}, M.~D.},
-    title = "{Independent Vector Analysis for Data Fusion Prior to Molecular Property Prediction with Machine Learning}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1811.00628},
- primaryClass = "stat.ML",
- keywords = {Statistics - Machine Learning, Condensed Matter - Materials Science, Computer Science - Machine Learning},
-     year = 2018,
-    month = nov,
-   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv181100628B},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@ARTICLE{2018arXiv181100628B,    
+   author = {{Boukouvalas}, Z. and {Elton}, D.~C. and {Chung}, P.~W. and
+	{Fuge}, M.~D.},  
+    title = "{Independent Vector Analysis for Data Fusion Prior to Molecular Property Prediction with Machine Learning}",  
+  journal = {ArXiv e-prints},  
+archivePrefix = "arXiv",  
+   eprint = {1811.00628},  
+ primaryClass = "stat.ML",  
+ keywords = {Statistics - Machine Learning, Condensed Matter - Materials Science, Computer Science - Machine Learning},  
+     year = 2018,  
+    month = nov,  
+   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv181100628B},  
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}  
 }
 
 ## References
