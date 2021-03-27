@@ -11,14 +11,14 @@ def iva_laplace(X, A=[], whiten=False, verbose=True, initW=[],
     """
     Required arguments:
 
-        X : numpy array of shape (N, K, T) containing data observations from K data sets.
+        X : numpy array of shape (K, N, T) containing data observations from K data sets.
 
     Optional keyword arguments:
 
-        A : [], true mixing matrices A, automatically sets verbose
+        A : [], true mixing matrices A, automatically sets verbose, 
         whiten : Boolean, default = True
         verbose : Boolean, default = False : enables print statements
-        W_init : [], ... % initial estimates for demixing matrices in W
+        W_init : [], ... % initial estimates for demixing matrices in W of size K x N x N
         maxIter : 2*512, ... % max number of iterations
         terminationCriterion : string, default = 'ChangeInCost' : criterion for terminating iterations, either 'ChangeInCost' or 'ChangeInW'
         termThreshold : float, default = 1e-6, : termination threshold
@@ -41,7 +41,7 @@ def iva_laplace(X, A=[], whiten=False, verbose=True, initW=[],
     [K, N, T] = np.shape(X)
 
     if whiten:
-        [X, V, yy] = whiten(X)
+        [X, V, yy] = whiten_data(X)
 
     if (initW != []) and (initW.any()):
         W = initW
@@ -178,7 +178,7 @@ def vecnorm(vec):
     return [uvec, mag]
 
 #--------------------------------------------------------------------
-def whiten(x):
+def whiten_data(x):
     if type(x) == np.ndarray:
         K,N,T = x.shape
         if K == 1:
