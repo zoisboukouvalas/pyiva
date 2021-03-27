@@ -8,7 +8,7 @@ setuptools.setup(
     name="pyiva",
     version="0.0.1",
     author="Zois Boukouvalas",
-    author_email="zoisb@umd.edu",
+    author_email="boukouva@american.edu",
     description="Python implementation of independent vector analysis (IVA) with Laplacian prior",
     long_description=long_description,
     long_description_content_type="text/markdown",
