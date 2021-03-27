@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 04 15:33:25 2018
-
-@author: zoisb
-"""
-
 import numpy as np
 from pyiva.iva_laplace import *
 
